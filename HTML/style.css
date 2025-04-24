@@ -1,0 +1,138 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #e6f0f8;
+}
+
+header {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: linear-gradient(to right, #a2c9f4, #d0e8ff);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 70%;
+}
+
+#login-wrapper {
+  width: 30%;
+  text-align: right;
+}
+
+#login button {
+  background-color: #3399ff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#login button:hover {
+  background-color: #1a75d1;
+}
+
+nav#topnav {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #cce5ff;
+  margin-top: 10px;
+}
+
+nav#topnav a {
+  text-decoration: none;
+  color: #003366;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+nav#topnav a:hover {
+  color: #ff6600;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#content {
+  flex: 3;
+  background: linear-gradient(to bottom, #fefefe, #dbeeff); 
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#content img {
+  width: 120px;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+  background-color: #fafafa;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+
+}
+
+#content img:hover {
+  transform: scale(1.03);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+aside {
+  flex: 1;
+  background-color: #e2f3ff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+aside img {
+  width: 100%; 
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+aside img:hover {
+  transform: scale(1.03);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  margin-top: 10px;
+  padding: 10px;
+  background: linear-gradient(to right, #99ccff, #66a3ff);
+  border: 1px solid #ccc;
+  text-align: center;
+  color: #003366;
+  border-radius: 5px;
+}
+
+img {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  padding: 8px;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+}
