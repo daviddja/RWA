@@ -1,0 +1,88 @@
+a)	Pokreće li vaš preglednik HTTP verziju 1.0 ili 1.1? 
+HTTP/1.1 304 Not Modified
+Date: Sat, 26 Apr 2025 13:21:18 GMT
+Server: Apache
+
+b)	Koja je verzija HTTP-a poslužitelja pokrenuta kad pristupite npr sa sum.ba?
+HTTP/1.1 304 Not Modified
+Date: Sat, 26 Apr 2025 13:24:51 GMT
+Server: Apache/2.4.29 (Ubuntu)
+
+c)	Koje jezike (ako postoje) vaš preglednik pokazuje da može prihvatiti na poslužitelju?
+Accept-Language: en-US,en;q=0.9
+
+d)	Koja je IP adresa vašeg računala? A koja je IP adresa sum.ba?
+192.168.228.209
+212.39.111.33
+
+e)	Kada je HTML datoteka koju dohvaćate zadnji put modificirana na poslužitelju?
+Last-Modified: Thu, 03 Dec 1992 08:37:20 GMT
+
+f)	Koliko se bajtova sadržaja vraća u vaš preglednik?
+Content-Length: 2217
+
+g)	Koji softver/web poslužitelj  poslužje web stranicu na server,navedite odakle vidite?
+Server: Apache
+Dev. tools i curl cmd
+
+h)	Koje jezike vaš web preglednik može prihvatiti?
+Accept-Language: en-US,en;q=0.9
+
+
+
+https://web-admin.sum.ba/api/storage/pravilnik_mobilnost_1552858671_80.pdf
+HTTP/1.1 200 OK
+Date: Sat, 26 Apr 2025 13:39:01 GMT
+Server: Apache/2.4.29 (Ubuntu)
+Cache-Control: no-cache, private
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: application/pdf
+
+a)	kojem MIME formatu resursa se radi:
+application/pdf
+b)	kolika je veličina resursa (u byte-ima)
+
+c)	koja je verzija HTTP poslužitelja
+HTTP/1.1
+
+
+https://eucenje.sum.ba/moodle/pluginfile.php/1/core_admin/logocompact/300x300/1698654623/Logo%20sumarum.png
+HTTP/1.1 200 OK
+Server: nginx/1.14.0 (Ubuntu)
+Date: Sat, 26 Apr 2025 13:40:23 GMT
+Content-Type: image/png
+Content-Length: 15684
+Connection: keep-alive
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Disposition: inline; filename="Logo sumarum.png"
+Last-Modified: Sat, 26 Apr 2025 13:40:23 GMT
+Expires: Sat, 26 Apr 2025 13:40:25 GMT
+Pragma: 
+Accept-Ranges: none
+a)	kojem MIME formatu resursa se radi:
+image/png
+b)	kolika je veličina resursa (u byte-ima)
+15684
+c)	koja je verzija HTTP poslužitelja
+HTTP/1.1
+
+
+https://mirrors.edge.kernel.org/linuxmint/stable/10/sha256sum.txt
+content-encoding:
+gzip
+content-type:
+text/html; charset=utf-8
+date:
+Sat, 26 Apr 2025 13:43:31 GMT
+server:
+nginx
+vary:
+Accept-Encoding
+a)	kojem MIME formatu resursa se radi:
+text/html
+b)	kolika je veličina resursa (u byte-ima)
+
+c)	koja je verzija HTTP poslužitelja
+HTTP/1.1
